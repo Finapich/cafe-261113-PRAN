@@ -28,3 +28,20 @@
   margin: 24px 0 0;
   font-size: 12px;
 }
+.site-footer__sns {
+  display: flex;
+  gap: 16px;
+  list-style: none;
+  padding: 0;
+  margin: 12px 0;
+}.footer-nav {
+  display: flex;
+  gap: 16px;
+  list-style: none;
+  padding: 0;
+  margin: 12px 0;
+}
+
+.footer-nav__link {
+  color: #fff;
+}
