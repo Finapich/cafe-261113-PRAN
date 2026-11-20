@@ -91,4 +91,15 @@
 
 .contact__button:hover {
   opacity: 0.85;
+}.sns {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  margin: 16px 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.sns__link {
+  color: #fff;
 }
