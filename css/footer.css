@@ -28,23 +28,9 @@
   margin: 24px 0 0;
   font-size: 12px;
 }
-.site-footer__sns {
-  display: flex;
-  gap: 16px;
-  list-style: none;
-  padding: 0;
-  margin: 12px 0;
-}.footer-nav {
-  display: flex;
-  gap: 16px;
-  list-style: none;
-  padding: 0;
-  margin: 12px 0;
-}
 
-.footer-nav__link {
-  color: #fff;
-}.contact {
+/* MC-301: contact form */
+.contact {
   max-width: 560px;
   margin: 0 auto;
   padding: 48px 16px;
@@ -91,4 +77,33 @@
 
 .contact__button:hover {
   opacity: 0.85;
+}
+
+/* MC-302: social links */
+.sns {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  margin: 16px 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.sns__link {
+  color: #fff;
+}
+
+/* MC-303: footer menu */
+.footer-nav {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin: 16px 0 0;
+  padding: 0;
+  list-style: none;
+  font-size: 14px;
+}
+
+.footer-nav__link {
+  color: #fff;
 }
