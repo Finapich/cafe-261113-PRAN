@@ -18,3 +18,6 @@ html {
 .to-top:hover {
   opacity: 0.8;
 }
+::selection {
+  background: #e8a33d;
+}
