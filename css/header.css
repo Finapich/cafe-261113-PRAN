@@ -88,3 +88,7 @@
   margin: 0;
   color: #fff;
 }
+
+.site-header__button:hover {
+  opacity: 0.8;
+}
